@@ -6,7 +6,7 @@ code: tree_gen.py
 output: mtDNA_EntireTree.nw  
 
 ##### Query tree ####
-code: tree_query.py  
+code: tree_query.haploInput.py; tree_query.SNPinput.py  
 input: mtDNA_EntireTree.nw & SNPs or nodes input files 
 output: result_from_treequery.txt 
 
